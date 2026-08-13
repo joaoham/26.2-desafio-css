@@ -27,9 +27,31 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  font-family: "Permanent Marker", cursive;
+}
+
+.appbar{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  gap: 10px;
+  background-color: #f7d736;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.logo{
+  height: 50px;
+  margin-left: 5px;
+}
+
+.subtitle{
+  font-size: 18px;
+  color: #4c4c4c;
+}
 /* Você pode usar o CSS comentado abaixo, se ajudar */
-/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+/*Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
