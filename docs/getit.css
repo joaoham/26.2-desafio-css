@@ -27,7 +27,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+*{
+  box-sizing: border-box;
+}
+.card-container {
   font-family: "Permanent Marker", cursive;
 }
 
@@ -37,7 +40,7 @@ body {
   height: 65px;
   gap: 10px;
   background-color: #f7d736;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .logo{
@@ -66,6 +69,11 @@ body {
   background-color: #f7d736;
 
   transition: background-color 0.3s;
+
+  font-family: inherit;
+  width: 100%;
+  cursor:pointer;
+  font-size: 16px;
 }
 
 .btn > * {
@@ -99,4 +107,43 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+.card{
+  color:#2c2c2c
+}
+.card-title{
+  font-size: 20px;
+}
+.card-content{
+  font-size: 16px;
+}
+.form-card {
+  width: 570px;
+  margin: 50px auto 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  padding: 14px;
+}
+
+.form-card input,
+.form-card textarea{
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+.form-card textarea{
+  resize: none;
+  font-size: 14px;
+  height: 24px;
+}
+.form-card input{
+  font-size:20px;
+}
+::placeholder{
+  color: #787777;
+}
