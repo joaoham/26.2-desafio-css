@@ -99,4 +99,67 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+/* ----- Formulário ----- */
+.form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  width: 40%;
+  max-width: 580px;
+  margin: 50px auto 60px auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form-card-title,
+.autoresize {
+  width: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.form-card-title {
+  font-size: 24px;
+}
+
+.autoresize {
+  font-size: 16px;
+  min-height: 24px;
+  resize: none;
+  overflow: hidden;
+}
+
+.form-card-title::placeholder,
+.autoresize::placeholder {
+  color: #4c4c4c;
+}
+
+.form-card .btn {
+  width: 100%;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2c2c2c;
+
+  cursor: pointer;
+}
+
+.form-card .btn:hover {
+  background-color: #e0d426;
+}
