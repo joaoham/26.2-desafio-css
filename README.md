@@ -4,7 +4,7 @@ NOME DOS INTEGRANTES:
 
 - Henrique Benclowicz
 - João Henrique Mattar
-- Link do GitHub Pages: COLOQUE O LINK AQUI 
+- Link do GitHub Pages: https://joaoham.github.io/26.2-desafio-css/
 
 ## Desafio CSS
 
