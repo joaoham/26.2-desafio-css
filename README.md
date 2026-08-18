@@ -4,7 +4,6 @@ NOME DOS INTEGRANTES:
 
 - Henrique Benclowicz
 - João Henrique Mattar
-- DIGITE O NOME DO TERCEIRO INTEGRANTE
 - Link do GitHub Pages: COLOQUE O LINK AQUI 
 
 ## Desafio CSS
